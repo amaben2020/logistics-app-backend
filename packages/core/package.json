@@ -1,0 +1,17 @@
+{
+  "name": "@logistics-app/core",
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "test": "sst bind vitest",
+    "typecheck": "tsc -noEmit"
+  },
+  "devDependencies": {
+    "@types/node": "^22.5.5",
+    "sst": "^2.43.7",
+    "vitest": "^2.1.1"
+  },
+  "dependencies": {
+    "zod": "^3.23.8"
+  }
+}
